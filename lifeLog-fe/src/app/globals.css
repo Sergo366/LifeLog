@@ -1,6 +1,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --contentWidth: 1200px;
+  --activeButton: rgb(12, 104, 233);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,3 +42,9 @@ a {
     color-scheme: dark;
   }
 }
+
+ul, ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
