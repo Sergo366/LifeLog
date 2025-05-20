@@ -1,0 +1,12 @@
+.calendar {
+    display: flex;
+    width: var(--contentWidth-l);
+    gap: 20px;
+    justify-content: center;
+}
+
+.calendarItem {
+    background: linear-gradient(116.93deg,#3f4954 1%,#26292d 80%);
+    border-radius: 10px;
+    padding: 20px;
+}

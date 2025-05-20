@@ -1,7 +1,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --contentWidth: 1200px;
+  --contentWidth-s: 1200px;
+  --contentWidth-l: 1400px;
+  --contentWidth-xl: 1600px;
   --activeButton: rgb(12, 104, 233);
 }
 
