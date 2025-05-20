@@ -4,8 +4,9 @@ import Link from 'next/link';
 import classNames from 'classnames';
 import { usePathname } from 'next/navigation';
 import classes from './styles.module.css';
+import { HeaderItemProps } from '@/entities/Header/const';
 
-export const HeaderItem = (nav: { id: string; name: string; href: string }) => {
+export const HeaderItem = (nav: HeaderItemProps) => {
   const pathname = usePathname();
 
   const navigationItem = classNames(classes.navigationItem, {

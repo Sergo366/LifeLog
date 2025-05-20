@@ -1,6 +1,12 @@
 import { routes } from '@/shared/routes';
 
-export const navigationList = [
+export type HeaderItemProps = {
+  id: string;
+  name: string;
+  href: string;
+};
+
+export const navigationList: HeaderItemProps[] = [
   { id: '0', name: 'Diary', href: routes.diary },
   { id: '1', name: 'Plans', href: routes.plans },
   { id: '2', name: 'Goals', href: routes.goals },
