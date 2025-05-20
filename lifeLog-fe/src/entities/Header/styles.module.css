@@ -19,4 +19,13 @@
 .navList {
     display: flex;
     gap: 24px;
+    transition: all 0.2s ease-in-out;
+}
+
+.navItem:hover {
+    color: var(--primary);
+}
+
+.active {
+    color: var(--primary);
 }

@@ -3,6 +3,7 @@ import { Logo } from './Logo';
 import Link from 'next/link';
 import { navigationList } from '@/entities/Header/const';
 import { routes } from '@/shared/routes';
+import { HeaderItem } from '@/entities/Header/HeaderItem';
 
 export const Header = () => {
   return (
@@ -13,9 +14,7 @@ export const Header = () => {
         </Link>
         <ul className={classes.navList}>
           {navigationList.map((nav) => (
-            <li key={nav.id}>
-              <Link href={nav.href}>{nav.name}</Link>
-            </li>
+            <HeaderItem key={nav.id} {...nav} />
           ))}
         </ul>
       </nav>
