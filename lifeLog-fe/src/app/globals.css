@@ -1,10 +1,10 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --backgroundWhite: #ffffff;
+  --foregroundBlack: #171717;
   --contentWidth-s: 1200px;
   --contentWidth-l: 1400px;
   --contentWidth-xl: 1600px;
-  --activeButton: rgb(12, 104, 233);
+  --primary: rgb(12, 104, 233);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,3 +50,7 @@ ul, ol {
   padding-left: 0;
 }
 
+.container {
+  width: var(--contentWidth-l);
+  margin: 0 auto;
+}

@@ -3,7 +3,7 @@ import { Calendar } from '@/features/Calendar';
 
 const DiaryPage = () => {
   return (
-    <div>
+    <div className="container">
       <Calendar />
       DiaryPage
     </div>
