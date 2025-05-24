@@ -1,16 +1,7 @@
 import React from 'react';
 import classes from '@/features/Calendar/styles/styles.module.css';
 import { WeekDates } from '@/features/Calendar/types';
-
-const dayNames: Record<string, string> = {
-  '0': 'Monday',
-  '1': 'Thursday',
-  '2': 'Wednesday',
-  '3': 'Thursday',
-  '4': 'Friday',
-  '5': 'Saturday',
-  '6': 'Sunday',
-};
+import { dayNames } from '@/entities/CalendarItem/const';
 
 export const CalendarItem = ({ day }: { day: WeekDates }) => {
   return (
