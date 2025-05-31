@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="730909de-922d-4757-afb7-6bb2e8602818" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/next.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/public/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/public/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/public/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/app/diary/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/app/goals/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/app/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/app/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/app/plans/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/CalendarItem/CalendarItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/CalendarItem/const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/CalendarItem/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Footer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Footer/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Header/HeaderItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Header/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Header/const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Header/open-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/entities/Header/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/features/Calendar/Calendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/features/Calendar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/features/Calendar/styles/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/features/Calendar/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/features/Calendar/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/middleware.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/Button/const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/Button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/Button/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/styles/_keyframe-animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-extension/link-extension.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-extension/selection-extension.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-extension/trailing-node-extension.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/align-center-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/align-justify-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/align-left-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/align-right-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/arrow-left-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/ban-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/block-quote-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/bold-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/chevron-down-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/close-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/code-block-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/code2-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/corner-down-left-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/external-link-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-five-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-four-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-one-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-six-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-three-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-two-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/highlighter-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/image-plus-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/italic-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/link-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/list-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/list-ordered-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/list-todo-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/moon-star-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/redo2-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/strike-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/subscript-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/sun-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/superscript-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/trash-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/underline-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/undo2-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/code-block-node/code-block-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-node/image-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-upload-node/image-upload-node-extension.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-upload-node/image-upload-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-upload-node/image-upload-node.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-upload-node/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/list-node/list-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/paragraph-node/paragraph-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-templates/simple/data/content.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-templates/simple/simple-editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-templates/simple/simple-editor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-templates/simple/theme-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/button-colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/dropdown-menu/dropdown-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/dropdown-menu/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/dropdown-menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/popover/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/popover/popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/popover/popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/separator/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/separator/separator.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/separator/separator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/spacer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/spacer/spacer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/toolbar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/toolbar/toolbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/toolbar/toolbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/tooltip/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/tooltip/tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/tooltip/tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/blockquote-button/blockquote-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/blockquote-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/code-block-button/code-block-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/code-block-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-button/color-highlight-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-button/color-highlight-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-popover/color-highlight-popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-popover/color-highlight-popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-popover/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/heading-button/heading-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/heading-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/heading-dropdown-menu/heading-dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/heading-dropdown-menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/image-upload-button/image-upload-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/image-upload-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/link-popover/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/link-popover/link-popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/link-popover/link-popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/list-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/list-button/list-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/list-dropdown-menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/list-dropdown-menu/list-dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/mark-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/mark-button/mark-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/text-align-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/text-align-button/text-align-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/undo-redo-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/undo-redo-button/undo-redo-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/hooks/use-cursor-visibility.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/hooks/use-menu-navigation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/hooks/use-mobile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/hooks/use-tiptap-editor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/hooks/use-window-size.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/lib/tiptap-utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/routes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/src/shared/routes/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/lifeLog-fe/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/nest-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/src/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/tsconfig.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-be/lifeLog-be/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/next.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/public/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/public/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/public/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/app/diary/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/app/goals/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/app/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/app/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/app/plans/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/CalendarItem/CalendarItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/CalendarItem/const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/CalendarItem/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Footer/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Footer/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Header/HeaderItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Header/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Header/const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Header/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Header/open-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/entities/Header/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/features/Calendar/Calendar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/features/Calendar/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/features/Calendar/styles/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/features/Calendar/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/features/Calendar/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/Button/const.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/Button/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/Button/styles.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/styles/_keyframe-animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-extension/link-extension.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-extension/selection-extension.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-extension/trailing-node-extension.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/align-center-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/align-justify-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/align-left-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/align-right-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/arrow-left-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/ban-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/block-quote-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/bold-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/chevron-down-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/close-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/code-block-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/code2-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/corner-down-left-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/external-link-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-five-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-four-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-one-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-six-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-three-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/heading-two-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/highlighter-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/image-plus-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/italic-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/link-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/list-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/list-ordered-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/list-todo-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/moon-star-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/redo2-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/strike-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/subscript-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/sun-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/superscript-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/trash-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/underline-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-icons/undo2-icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/code-block-node/code-block-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-node/image-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-upload-node/image-upload-node-extension.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-upload-node/image-upload-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-upload-node/image-upload-node.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/image-upload-node/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/list-node/list-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-node/paragraph-node/paragraph-node.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-templates/simple/data/content.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-templates/simple/simple-editor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-templates/simple/simple-editor.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-templates/simple/theme-toggle.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/button-colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/dropdown-menu/dropdown-menu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/dropdown-menu/dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/dropdown-menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/popover/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/popover/popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/popover/popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/separator/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/separator/separator.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/separator/separator.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/spacer/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/spacer/spacer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/toolbar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/toolbar/toolbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/toolbar/toolbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/tooltip/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/tooltip/tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui-primitive/tooltip/tooltip.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/blockquote-button/blockquote-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/blockquote-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/code-block-button/code-block-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/code-block-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-button/color-highlight-button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-button/color-highlight-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-popover/color-highlight-popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-popover/color-highlight-popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/color-highlight-popover/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/heading-button/heading-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/heading-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/heading-dropdown-menu/heading-dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/heading-dropdown-menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/image-upload-button/image-upload-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/image-upload-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/link-popover/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/link-popover/link-popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/link-popover/link-popover.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/list-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/list-button/list-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/list-dropdown-menu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/list-dropdown-menu/list-dropdown-menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/mark-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/mark-button/mark-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/text-align-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/text-align-button/text-align-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/undo-redo-button/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor/tiptap-ui/undo-redo-button/undo-redo-button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/hooks/use-cursor-visibility.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/hooks/use-menu-navigation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/hooks/use-mobile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/hooks/use-tiptap-editor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/hooks/use-window-size.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/lib/tiptap-utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/routes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/src/shared/routes/routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifeLog-fe/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JSX File" />
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Sergo366&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Sergo366/LifeLog.git&quot;,
+    &quot;accountId&quot;: &quot;ee77c360-7fe1-4f32-b541-6da3e5f2edb7&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2wdhkFB1oOkvXzui7iN9eWkoeZq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/serhiikozenkov/Documents/personal/projects/LifeLog",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/serhiikozenkov/Documents/personal/projects/LifeLog/lifeLog-be/node_modules/prettier",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "ts.external.directory.path": "/Users/serhiikozenkov/Documents/personal/projects/LifeLog/lifeLog-be/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lifeLog-fe/src/entities" />
+      <recent name="$PROJECT_DIR$/lifeLog-fe/src/entities/Header" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/lifeLog-fe/php" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lifeLog-be" />
+      <recent name="$PROJECT_DIR$/lifeLog-fe/src/shared" />
+      <recent name="$PROJECT_DIR$/lifeLog-fe/src/shared/components/RichTextEditor" />
+      <recent name="$PROJECT_DIR$/lifeLog-fe/src/features/Calendar" />
+      <recent name="$PROJECT_DIR$/lifeLog-fe" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="730909de-922d-4757-afb7-6bb2e8602818" name="Changes" comment="" />
+      <created>1746377498179</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746377498179</updated>
+      <workItem from="1746377499225" duration="7404000" />
+      <workItem from="1746543725396" duration="2854000" />
+      <workItem from="1746720608055" duration="4086000" />
+      <workItem from="1746947478307" duration="13198000" />
+      <workItem from="1747668835184" duration="5387000" />
+      <workItem from="1747720059627" duration="867000" />
+      <workItem from="1747756193463" duration="6508000" />
+      <workItem from="1747842475666" duration="6040000" />
+      <workItem from="1748067006335" duration="74000" />
+      <workItem from="1748197265818" duration="5142000" />
+      <workItem from="1748268624797" duration="8609000" />
+      <workItem from="1748537834930" duration="408000" />
+      <workItem from="1748538252485" duration="153000" />
+      <workItem from="1748538414961" duration="3757000" />
+      <workItem from="1748583034365" duration="721000" />
+      <workItem from="1748583763027" duration="76000" />
+      <workItem from="1748583840398" duration="695000" />
+      <workItem from="1748675521892" duration="3413000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1746544313005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746544313005</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1746953426429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746953426429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="eslint prettier and some configs">
+      <option name="closed" value="true" />
+      <created>1746986012149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1746986012149</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Styles and Header.tsx">
+      <option name="closed" value="true" />
+      <created>1747669495996</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747669495996</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Header.tsx">
+      <option name="closed" value="true" />
+      <created>1747669780676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747669780676</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Basic pages">
+      <option name="closed" value="true" />
+      <created>1747670311066</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747670311066</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Calendar.tsx and items with some styles, fixed styles and added some logic">
+      <option name="closed" value="true" />
+      <created>1747720126823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747720126823</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Calendar styles">
+      <option name="closed" value="true" />
+      <created>1747758236608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747758236608</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Header and classNames">
+      <option name="closed" value="true" />
+      <created>1747760200173</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747760200173</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Header and classNames">
+      <option name="closed" value="true" />
+      <created>1747760351000</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747760351000</updated>
+    </task>
+    <task id="LOCAL-00011" summary="RichTextEditor">
+      <option name="closed" value="true" />
+      <created>1747861686130</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747861686131</updated>
+    </task>
+    <task id="LOCAL-00012" summary="added const.ts">
+      <option name="closed" value="true" />
+      <created>1748067076961</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1748067076961</updated>
+    </task>
+    <task id="LOCAL-00013" summary="styles">
+      <option name="closed" value="true" />
+      <created>1748200695075</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1748200695075</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Footer, Button and refactoring">
+      <option name="closed" value="true" />
+      <created>1748268677014</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1748268677014</updated>
+    </task>
+    <task id="LOCAL-00015" summary="RichTextComponent">
+      <option name="closed" value="true" />
+      <created>1748279712394</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1748279712394</updated>
+    </task>
+    <task id="LOCAL-00016" summary="footer, styles and buttons">
+      <option name="closed" value="true" />
+      <created>1748292302342</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1748292302342</updated>
+    </task>
+    <task id="LOCAL-00017" summary="backend initial">
+      <option name="closed" value="true" />
+      <created>1748545898958</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1748545898958</updated>
+    </task>
+    <task id="LOCAL-00018" summary="backend initial">
+      <option name="closed" value="true" />
+      <created>1748545913897</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1748545913897</updated>
+    </task>
+    <task id="LOCAL-00019" summary="basic settings">
+      <option name="closed" value="true" />
+      <created>1748584342179</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1748584342179</updated>
+    </task>
+    <task id="LOCAL-00020" summary="basic settings">
+      <option name="closed" value="true" />
+      <created>1748584416875</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1748584416875</updated>
+    </task>
+    <task id="LOCAL-00021" summary="new lib">
+      <option name="closed" value="true" />
+      <created>1748675976411</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1748675976411</updated>
+    </task>
+    <task id="LOCAL-00022" summary="new lib">
+      <option name="closed" value="true" />
+      <created>1748677056694</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1748677056694</updated>
+    </task>
+    <task id="LOCAL-00023" summary="remove idea folder from git">
+      <option name="closed" value="true" />
+      <created>1748677226410</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1748677226410</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commit">
+      <option name="closed" value="true" />
+      <created>1748704534264</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1748704534264</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="eslint prettier and some configs" />
+    <MESSAGE value="Styles and Header.tsx" />
+    <MESSAGE value="Header.tsx" />
+    <MESSAGE value="Basic pages" />
+    <MESSAGE value="Added Calendar.tsx and items with some styles, fixed styles and added some logic" />
+    <MESSAGE value="Calendar styles" />
+    <MESSAGE value="Header and classNames" />
+    <MESSAGE value="RichTextEditor" />
+    <MESSAGE value="added const.ts" />
+    <MESSAGE value="styles" />
+    <MESSAGE value="Footer, Button and refactoring" />
+    <MESSAGE value="RichTextComponent" />
+    <MESSAGE value="footer, styles and buttons" />
+    <MESSAGE value="backend initial" />
+    <MESSAGE value="basic settings" />
+    <MESSAGE value="new lib" />
+    <MESSAGE value="remove idea folder from git" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+</project>
